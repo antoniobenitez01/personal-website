@@ -7,4 +7,10 @@ import { Component, signal } from '@angular/core';
   standalone: false
 })
 export class TitleComponent {
+  myScript : HTMLScriptElement;
+  constructor(){
+    this.myScript = document.createElement("script");
+    this.myScript.src = "scripts/title.js";
+    document.body.appendChild(this.myScript);
+  }
 }

@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TitleComponent } from './title/title';
-import { Animations } from './animations/animations';
+import { Iconbar } from './iconbar/iconbar';
 
 
 
 @NgModule({
-  declarations: [TitleComponent,Animations],
+  declarations: [TitleComponent, Iconbar],
   imports: [
     CommonModule
   ],
-  exports: [TitleComponent,Animations]
+  exports: [TitleComponent, Iconbar]
 })
 export class MainModule { }

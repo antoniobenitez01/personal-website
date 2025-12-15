@@ -85,7 +85,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/app/main/title/title.js"
+              "assets/scripts/title.js"
             ]
           }
         }

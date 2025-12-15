@@ -1,6 +1,6 @@
-alert("ITS WORKING!")
+alert("LOADING TITLE SCRIPT")
 
-let constrain = 20;
+let constrain = 60;
 let mouseOverContainer = document.getElementById("mokatitle");
 let ex1Layer = document.getElementById("mokaimage");
 
@@ -9,7 +9,7 @@ function transforms(x, y, el) {
   let calcX = -(y - box.y - (box.height / 2)) / constrain;
   let calcY = (x - box.x - (box.width / 2)) / constrain;
 
-  return "perspective(100px) "
+  return "perspective(100vw) "
     + "   rotateX("+ calcX +"deg) "
     + "   rotateY("+ calcY +"deg) ";
 };
