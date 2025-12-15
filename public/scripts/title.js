@@ -1,4 +1,4 @@
-alert("LOADING TITLE SCRIPT")
+//alert("LOADING TITLE SCRIPT") //DEBUG ONLY
 
 let constrain = 60;
 let mouseOverContainer = document.getElementById("mokatitle");
